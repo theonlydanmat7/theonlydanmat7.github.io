@@ -1,0 +1,310 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b5;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header Section */
+section h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.splash {
+    text-align: center;
+    background: linear-gradient(to right, #0077b5, #003366);
+    color: white;
+    padding: 50px 20px;
+}
+
+.splash img {
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.splash h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.splash p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 10px auto;
+    color: white;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style h2 Headings */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0056b3;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 3px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: 2px solid #0077b5;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Education Paragraph */
+.education-text {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #444;
+    line-height: 1.6;
+    background: #eef7ff;
+    padding: 10px;
+    border-left: 4px solid #0077b5;
+}
+
+/* Lists */
+ul, dl {
+    padding-left: 20px;
+}
+
+ul li, dl dt {
+    font-weight: bold;
+}
+
+/* Unordered List Styling */
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+/* Description Lists using Grid Layout */
+dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+dt {
+    font-weight: bold;
+    color: #0077b5;
+}
+
+dd {
+    margin: 0;
+    padding-left: 10px;
+}
+
+/* Project Cards */
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card h3 {
+    color: #0077b5;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.project-card ul {
+    padding-left: 20px;
+}
+
+.project-card li {
+    margin-bottom: 8px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #0077b5;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact Page */
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Adjusting the Navigation for Contact Page */
+nav {
+    background-color: #003366;
+    padding: 15px 20px;
+}
+
+nav p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Contact Section */
+section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 10px auto;
+    color: #444;
+}
+
+/* Footer Adjustments */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: white;
+}
+
+/* Footer LinkedIn Icon */
+footer a i {
+    font-size: 28px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover i {
+    color: #ff6600;
+}
+
+/* Contact Info Section */
+.contact-paragraph {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #003366;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+section hr {
+    border: 2px solid #0077b5;
+    margin: 20px auto;
+    width: 50%;
+}
+
